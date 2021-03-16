@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="chess.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    <div class="chessboard">
+        <div class="game-column">
+            <div id="A8" class="square w"></div>
+            <div id="A7" class="square b"></div>
+            <div id="A6" class="square w"></div>
+            <div id="A5" class="square b"></div>
+            <div id="A4" class="square w"></div>
+            <div id="A3" class="square b"></div>
+            <div id="A2" class="square w"></div>
+            <div id="A1" class="square b"></div>
+        </div>
+        <div class="game-column">
+            <div id="B8" class="square b"></div>
+            <div id="B7" class="square w"></div>
+            <div id="B6" class="square b"></div>
+            <div id="B5" class="square w"></div>
+            <div id="B4" class="square b"></div>
+            <div id="B3" class="square w"></div>
+            <div id="B2" class="square b"></div>
+            <div id="B1" class="square w"></div>
+        </div>
+        <div class="game-column">
+            <div id="C8" class="square w"></div>
+            <div id="C7" class="square b"></div>
+            <div id="C6" class="square w"></div>
+            <div id="C5" class="square b"></div>
+            <div id="C4" class="square w"></div>
+            <div id="C3" class="square b"></div>
+            <div id="C2" class="square w"></div>
+            <div id="C1" class="square b"></div>
+        </div>
+        <div class="game-column">
+            <div id="D8" class="square b"></div>
+            <div id="D7" class="square w"></div>
+            <div id="D6" class="square b"></div>
+            <div id="D5" class="square w"></div>
+            <div id="D4" class="square b"></div>
+            <div id="D3" class="square w"></div>
+            <div id="D2" class="square b"></div>
+            <div id="D1" class="square w"></div>
+        </div>
+        <div class="game-column">
+            <div id="E8" class="square w"></div>
+            <div id="E7" class="square b"></div>
+            <div id="E6" class="square w"></div>
+            <div id="E5" class="square b"></div>
+            <div id="E4" class="square w"></div>
+            <div id="E3" class="square b"></div>
+            <div id="E2" class="square w"></div>
+            <div id="E1" class="square b"></div>
+        </div>
+        <div class="game-column">
+            <div id="F8" class="square b"></div>
+            <div id="F7" class="square w"></div>
+            <div id="F6" class="square b"></div>
+            <div id="F5" class="square w"></div>
+            <div id="F4" class="square b"></div>
+            <div id="F3" class="square w"></div>
+            <div id="F2" class="square b"></div>
+            <div id="F1" class="square w"></div>
+        </div>
+        <div class="game-column">
+            <div id="G8" class="square w"></div>
+            <div id="G7" class="square b"></div>
+            <div id="G6" class="square w"></div>
+            <div id="G5" class="square b"></div>
+            <div id="G4" class="square w"></div>
+            <div id="G3" class="square b"></div>
+            <div id="G2" class="square w"></div>
+            <div id="G1" class="square b"></div>
+        </div>
+        <div class="game-column">
+            <div id="H8" class="square b"></div>
+            <div id="H7" class="square w"></div>
+            <div id="H6" class="square b"></div>
+            <div id="H5" class="square w"></div>
+            <div id="H4" class="square b"></div>
+            <div id="H3" class="square w"></div>
+            <div id="H2" class="square b"></div>
+            <div id="H1" class="square w"></div>
+        </div>
+    </div>
+    <div id="computer-controls">
+        <h2 class='modal-header'>Play Against Computer</h2>
+        <div class="slider">
+            <span><button id="comp-on" class="btn-inactive">On</button></span>&nbsp;<span><button id="comp-off" class="btn-active">Off</button></span>
+        </div>
+    </div>
+    <div id="queen-pawn-modal">
+        <h2 class="modal-header">Select Your Piece:</h2>
+        <div class="pieces-flex">
+            <i id="Q" class="fas queening fa-chess-queen"></i>
+            <i id="R" class="fas queening fa-chess-rook"></i>
+            <i id="N" class="fas queening fa-chess-knight"></i>
+            <i id="B" class="fas queening fa-chess-bishop"></i>
+        </div>
+        
+    </div>
+    <script src="chess2.js"></script>
+  
+</body>
+</html>

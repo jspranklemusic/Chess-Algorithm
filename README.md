@@ -6,7 +6,7 @@ To run this application, download the files and run the HTML file on a server.
 
 ### Features
 
--To prevent a slowdown of the UI when the computer is performing calculations (200,000+ per second), a web worker is implemented. 
+-To prevent a slowdown of the UI when the computer is performing calculations (100,000+), a web worker is implemented. 
 
 -The full rules of chess are implemented
 

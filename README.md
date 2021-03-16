@@ -13,8 +13,6 @@ A simple algorithm that can find 2-move checkmates, capture hanging pieces, and 
 ## Bugs
 -Currently, the computer only favors black.
 
--Queening 
-
 -All pawns (on the computer side) automatically default to queen, even if there is a possibility of checkmating with a knight promotion.
 
 -In sequences where there are many defenders and many attackers, the computer will often blunder by capturing with a high-ranking piece instead of a lower piece.
